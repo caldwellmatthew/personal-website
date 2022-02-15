@@ -1,0 +1,117 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    /* mobile */
+    max-width: 90%;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        /* desktop */
+        max-width: 60%;
+        text-align: left;
+    }
+}
+
+strong {
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    background-color: #2CA0B5;
+    color: white;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+header h2 {
+    text-transform: lowercase;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+header h1, header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+#contact-links {
+    text-align: center;
+}
+
+#lead {
+    font-size: 2rem;
+}
+
+#interests, #say-hi {
+    font-size: 1.5rem;
+}
+
+#contact-links {
+    display: flex;
+    justify-content: space-evenly;
+    fill: #373F51;
+    flex-wrap: wrap;
+}
+
+#resume {
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+#contact-links a {
+    text-decoration: none;
+}
+
+#contact-links a, #contact-links a:visited {
+    color: #373F51;
+}
+
+#resume-link {
+    text-decoration: none;
+    background-color: #373F51;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+
+    transition: background-color 333ms;
+}
+
+#resume-link:hover {
+    background-color: #6DA34D;
+}
+
+.icon-display i {
+    color: #373F51;
+    font-size: 6rem;
+
+    transition: color 333ms;
+}
+
+.icon-display i:hover {
+    color: #6DA34D;
+}
+
+.subheading {
+    margin: 0;
+}
