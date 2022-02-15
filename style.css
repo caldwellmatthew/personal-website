@@ -52,7 +52,6 @@ header h2 {
 header h1, header h2 {
     margin-top: 0;
     margin-bottom: 0;
-    
 }
 
 #contact-links {
@@ -70,7 +69,6 @@ header h1, header h2 {
 #contact-links {
     display: flex;
     justify-content: space-evenly;
-    fill: #373F51;
     flex-wrap: wrap;
 }
 
@@ -93,7 +91,6 @@ header h1, header h2 {
     color: white;
     padding: 10px;
     border-radius: 3px;
-
     transition: background-color 333ms;
 }
 
@@ -104,7 +101,6 @@ header h1, header h2 {
 .icon-display i {
     color: #373F51;
     font-size: 6rem;
-
     transition: color 333ms;
 }
 
